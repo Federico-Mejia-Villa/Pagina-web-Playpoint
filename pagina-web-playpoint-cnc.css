@@ -28,6 +28,7 @@ p {
   margin: 45px 45px; /* 20px arriba y abajo, 10px a los lados */
   margin: 45px 45px 45px; /* 20px arriba, 10px a los lados, 5px abajo */
   margin: 45px 45px 45px 45px; /* 20px arriba, 10px a la derecha, 5px abajo, 15px a la izquierda */
+  text-align: justify;
 }
 
 /* Estilos del encabezado */
