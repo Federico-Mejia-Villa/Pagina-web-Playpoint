@@ -6,11 +6,13 @@
 /* Aplicar Bungee a títulos principales */
 h1, h2 {
     font-family: 'Bungee', sans-serif;
+    text-align: justify;
 }
 
 /* Fuentes personalizadas */
 h1, h2 {
     font-family: 'Bungee', sans-serif;
+    text-align: justify;
 }
 
 h3, p, a, li, span, div {
@@ -35,7 +37,6 @@ p {
 header {
     background-color: #323232; /* Negro grisáceo */
     color: #ff6600;
-    text-align: center;
     padding: 15px;
     position: fixed;
     width: 100%;
@@ -71,7 +72,6 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
     color: white;
     position: relative;
 }
