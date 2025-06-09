@@ -34,7 +34,7 @@ p {
 header {
     background-color: #323232; /* Negro grisáceo */
     color: #ff6600;
-    text-align: justify;
+    text-align: center;
     padding: 15px;
     position: fixed;
     width: 100%;
@@ -121,7 +121,7 @@ nav ul li a:hover {
 /* Secciones */
 section {
     padding: 50px 20px;
-    text-align: center;
+    text-align: justify;
     background-color: #222; /* Gris oscuro */
     color: white;
 }
