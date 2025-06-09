@@ -6,13 +6,13 @@
 /* Aplicar Bungee a títulos principales */
 h1, h2 {
     font-family: 'Bungee', sans-serif;
-    text-align: justify;
+    text-align: center;
 }
 
 /* Fuentes personalizadas */
 h1, h2 {
     font-family: 'Bungee', sans-serif;
-    text-align: justify;
+    text-align: center;
 }
 
 h3, p, a, li, span, div {
@@ -24,6 +24,10 @@ h3, p, a, li, span, div {
 body, h3, p, a, li {
     font-family: 'Anta', sans-serif;
 }
+}
+
+h3 {
+    text-align: center;
 }
 
 p {
