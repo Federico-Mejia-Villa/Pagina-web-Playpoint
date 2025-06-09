@@ -28,14 +28,13 @@ p {
   margin: 45px 45px; /* 20px arriba y abajo, 10px a los lados */
   margin: 45px 45px 45px; /* 20px arriba, 10px a los lados, 5px abajo */
   margin: 45px 45px 45px 45px; /* 20px arriba, 10px a la derecha, 5px abajo, 15px a la izquierda */
-  text-align: justify;
 }
 
 /* Estilos del encabezado */
 header {
     background-color: #323232; /* Negro grisáceo */
     color: #ff6600;
-    text-align: center;
+    text-align: justify;
     padding: 15px;
     position: fixed;
     width: 100%;
