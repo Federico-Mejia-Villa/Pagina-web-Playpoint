@@ -39,7 +39,7 @@ p {
 
 /* Estilos del encabezado */
 header {
-    background-color: #323232; /* Negro grisáceo */
+    background-color: #12b2e1; /* Negro grisáceo */
     color: #12b2e1;
     padding: 15px;
     position: fixed;
@@ -66,7 +66,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff6600; /* Naranja oscuro */
+    color: #12b2e1; /* Naranja oscuro */
 }
 
 /* Sección principal con imagen de fondo */
@@ -76,7 +76,7 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #12b2e1;
     position: relative;
 }
 
