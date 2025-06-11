@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-/* Aplicar Bungee a títulos principales */
+}
+    /* Aplicar Bungee a títulos principales */
 h1, h2 {
     font-family: 'Bungee', sans-serif;
     text-align: center;
@@ -24,17 +25,15 @@ h3, p, a, li, span, div {
 body, h3, p, a, li {
     font-family: 'Anta', sans-serif;
 }
-}
 
 h3 {
     text-align: center;
 }
 
 p {
-  margin: 45px 45px; /* 20px arriba y abajo, 10px a los lados */
-  margin: 45px 45px 45px; /* 20px arriba, 10px a los lados, 5px abajo */
-  margin: 45px 45px 45px 45px; /* 20px arriba, 10px a la derecha, 5px abajo, 15px a la izquierda */
-  text-align: justify;
+    text-align: justify;
+    margin: 15px;
+    font-size: 16px;
 }
 
 /* Estilos del encabezado */
@@ -162,7 +161,7 @@ section {
 }
 
 
-.proyectos mp4 {
+.proyectos video {
     width: 100%;
     max-width: 500px;
     border-radius: 10px;
