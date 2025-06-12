@@ -122,13 +122,13 @@ header h1 {
 /* Secciones */
 section {
     padding: 50px 20px;
-    background-color: #222; /* Gris oscuro */
+    background-color: #ffffff; /* Gris oscuro */
     color: white;
 }
 
 
 .inicio {
-    background-color: #424242; /* Gris medio */
+    background-color: #12b2e1; /* Gris medio */
     padding: 20px;
     border-radius: 10px;
     margin: 10px auto;
@@ -138,12 +138,12 @@ section {
 .inicio img {
     width: 100%;
     border-radius: 10px;
-    border: 3px solid #ff6600; /* Borde naranja */
+    border: 3px solid #ffffff; /* Borde naranja */
 }
 
 /* Sección de proyectos */
 .proyectos {
-    background-color: #424242; /* Gris medio */
+    background-color: #6758a2; /* Gris medio */
     padding: 20px;
     border-radius: 10px;
     margin: 10px auto;
@@ -154,7 +154,7 @@ section {
     width: 100%;
     max-width: 500px;
     border-radius: 10px;
-    border: 3px solid #ff6600; /* Borde naranja */
+    border: 3px solid #ffffff; /* Borde naranja */
 }
 
 
@@ -162,7 +162,7 @@ section {
     width: 100%;
     max-width: 500px;
     border-radius: 10px;
-    border: 3px solid #ff6600; /* Borde naranja */
+    border: 3px solid #ffffff; /* Borde naranja */
 }
 
 
@@ -180,7 +180,7 @@ section {
     width: 100%;
     max-width: 500px;
     border-radius: 10px;
-    border: 3px solid #ff6600; /* Borde naranja */
+    border: 3px solid #ffffff; /* Borde naranja */
 }
 
 
@@ -198,7 +198,7 @@ section {
     width: 100%;
     max-width: 500px;
     border-radius: 10px;
-    border: 3px solid #ff6600; /* Borde naranja */
+    border: 3px solid #ffffff; /* Borde naranja */
 }
 
 .productos {
@@ -213,7 +213,7 @@ section {
     width: 100%;
     max-width: 500px;
     border-radius: 10px;
-    border: 3px solid #ff6600; /* Borde naranja */
+    border: 3px solid #ffffff; /* Borde naranja */
 }
 
 /* Responsive */
