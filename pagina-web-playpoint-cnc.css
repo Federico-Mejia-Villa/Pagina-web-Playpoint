@@ -45,14 +45,14 @@ body {
 header {
     background: linear-gradient(to right, #12b2e1, #6758a2, #f4da18, #a7c937, #b51157);
     color: white;
-    padding: 5px 15px;
-    min-height: 40px;
+    padding: 10px 20px;
+    min-height: 45px;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
-    font-size: 16px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    font-size: 17px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 header h1 {
