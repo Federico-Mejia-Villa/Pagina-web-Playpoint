@@ -38,7 +38,7 @@ p {
 
 /* Estilos del encabezado */
 header {
-    background-color: linear-gradient(to right, #12b2e1, #6758a2, #f4da18, #a7c937, #b51157);
+    background: linear-gradient(to right, #12b2e1, #6758a2, #f4da18, #a7c937, #b51157);
     color: white;
     padding: 15px;
     position: fixed;
