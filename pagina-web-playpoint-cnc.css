@@ -37,29 +37,33 @@ p {
 }
 
 body {
-    margin-top: 80px;
+    margin-top: 50px; /* Suficiente espacio debajo del header */
 }
+
 
 /* Estilos del encabezado */
 header {
     background: linear-gradient(to right, #12b2e1, #6758a2, #f4da18, #a7c937, #b51157);
     color: white;
-    padding: 15px 20px;
-    min-height: 60px;
+    padding: 5px 15px;
+    min-height: 40px;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
-    font-size: 18px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    font-size: 16px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
 
 header h1 {
     margin: 0;
-    font-size: 22px;
-    font-weight: 600;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 500;
     text-align: center;
+    line-height: 40px; /* Coincide con el alto del header */
 }
+
 
 /* Sección principal con imagen de fondo */
 .hero {
