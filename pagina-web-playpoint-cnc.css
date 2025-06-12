@@ -36,18 +36,30 @@ p {
     font-size: 16px;
 }
 
+body {
+    margin-top: 80px;
+}
+
 /* Estilos del encabezado */
 header {
     background: linear-gradient(to right, #12b2e1, #6758a2, #f4da18, #a7c937, #b51157);
     color: white;
-    padding: 40px;
-    min-height: 80px;
+    padding: 15px 20px;
+    min-height: 60px;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 
+header h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
 
 /* Sección principal con imagen de fondo */
 .hero {
