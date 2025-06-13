@@ -121,7 +121,7 @@ header h1 {
 
 /* Secciones */
 section {
-    width: 100;
+    width: 100 auto;
     padding: 50px 20px;
     background-color: #8e9aa6; /* Gris oscuro */
     color: white;
