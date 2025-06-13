@@ -139,6 +139,7 @@ section {
     width: 100%;
     border-radius: 10px;
     border: 3px solid #ffffff; /* Borde naranja */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Sección de proyectos */
@@ -155,6 +156,7 @@ section {
     max-width: 500px;
     border-radius: 10px;
     border: 3px solid #ffffff; /* Borde naranja */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .video-estetico {
@@ -183,6 +185,7 @@ section {
     max-width: 500px;
     border-radius: 10px;
     border: 3px solid #ffffff; /* Borde naranja */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -200,6 +203,7 @@ section {
     max-width: 500px;
     border-radius: 10px;
     border: 3px solid #ffffff; /* Borde naranja */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .productos {
@@ -215,6 +219,7 @@ section {
     max-width: 500px;
     border-radius: 10px;
     border: 3px solid #ffffff; /* Borde naranja */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Responsive */
