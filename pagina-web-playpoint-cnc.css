@@ -157,18 +157,14 @@ section {
     border: 3px solid #ffffff; /* Borde naranja */
 }
 
-.video-estilo {
-  width: 100%;
-  max-width: 600px;
-  border-radius: 10px;
-  border: 4px solid #ff6600;
-  display: block;
-  margin: auto;
-  transition: transform 0.3s ease;
-}
-
-.video-estilo:hover {
-  transform: scale(1.02);
+.video-estetico {
+    width: 100%;
+    max-width: 600px;
+    border: 4px solid #ff6600; /* Naranja fuerte */
+    border-radius: 15px;
+    display: block;
+    margin: 30px auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 
