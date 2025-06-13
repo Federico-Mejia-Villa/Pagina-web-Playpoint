@@ -4,47 +4,27 @@
     padding: 0;
     box-sizing: border-box;
 }
-    /* Aplicar Bungee a títulos principales */
-h1, h2 {
-    font-family: 'Bungee', sans-serif;
-    text-align: center;
-}
 
 /* Fuentes personalizadas */
+body, h3, p, a, li {
+    font-family: 'Anta', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
 h1, h2 {
     font-family: 'Bungee', sans-serif;
     text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
 }
 
-h3, p, a, li, span, div {
-    font-family: 'Anta', sans-serif;
-}
-
-
-/* Aplicar Anta al resto del texto */
-body, h3, p, a, li {
-    font-family: 'Anta', sans-serif;
-}
-
-h3 {
-    text-align: center;
-}
-
-p {
-    text-align: justify;
-    margin: 15px;
-    font-size: 16px;
-}
-
-body {
-    margin-top: 54px; /* Suficiente espacio debajo del header */
-}
-
-
-/* Estilos del encabezado */
+/* Encabezado */
 header {
     background: linear-gradient(to right, #12b2e1, #6758a2, #f4da18, #a7c937, #b51157);
-    color: white;
+    color: #ffffff;
     padding: 15px 25px;
     min-height: 50px;
     position: fixed;
@@ -52,175 +32,161 @@ header {
     top: 0;
     z-index: 1000;
     font-size: 20px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+    text-align: center;
 }
 
 header h1 {
-    margin: 0;
-    padding: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
     font-size: 30px;
     font-weight: 500;
-    text-align: center;
-    line-height: 40px; /* Coincide con el alto del header */
-}
-
-
-/* Sección principal con imagen de fondo */
-.hero {
-    background: url('fondo.jpg') center/cover no-repeat;
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: red;
-    position: relative;
-}
-
-.hero .overlay {
-    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro */
-    padding: 30px;
-    border-radius: 10px;
+    line-height: 40px;
 }
 
 /* Botones */
 .boton {
     display: inline-block;
     padding: 12px 24px;
-    background: #ff6600; /* Naranja */
-    color: black;
+    background: #ff6600;
+    color: #000000;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 10px;
     font-size: 18px;
     transition: background 0.3s ease-in-out;
+    font-weight: bold;
 }
 
 .boton:hover {
-    background: #cc5200; /* Naranja oscuro */
+    background: #cc5200;
 }
 
-/* Botón especial para Gmail */
 .boton.gmail {
-    background: #D93025; /* Rojo de Gmail */
+    background: #D93025;
     margin-left: 10px;
 }
 
 .boton.gmail:hover {
-    background: #B1271B; /* Rojo más oscuro al pasar el mouse */
+    background: #B1271B;
 }
 
-/* Botón especial para WhatsApp */
 .boton.whatsapp {
-    background: #25D366; /* Color verde de WhatsApp */
+    background: #25D366;
     margin-left: 10px;
 }
 
 .boton.whatsapp:hover {
-    background: #1DA851; /* Verde más oscuro al pasar el mouse */
+    background: #1DA851;
 }
 
 /* Secciones */
 section {
-    width: 100 auto;
+    width: 100%;
     padding: 50px 20px;
-    background-color: #8e9aa6; /* Gris oscuro */
-    color: white;
+    color: #ffffff;
+    box-sizing: border-box;
 }
 
-
 .inicio {
-    background-color: #12b2e1; /* Gris medio */
-    padding: 20px;
+    background-color: #12b2e1;
     border-radius: 10px;
     margin: 10px auto;
     max-width: 1100px;
+    padding: 20px;
 }
 
 .inicio img {
     width: 100%;
+    max-width: 490px;
     border-radius: 10px;
-    border: 3px solid #ffffff; /* Borde naranja */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border: 3px solid #ffffff;
+    box-shadow: 0 4px 15px rgb(0 0 0 / 0.3);
+    margin-bottom: 20px;
 }
 
-/* Sección de proyectos */
-.proyectos {
-    background-color: #f4da18; /* Gris medio */
-    padding: 20px;
+.sobre {
+    background-color: #6758a2;
     border-radius: 10px;
     margin: 10px auto;
     max-width: 1100px;
+    padding: 20px;
+}
+
+.sobre img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+    box-shadow: 0 4px 15px rgb(0 0 0 / 0.3);
+    margin-bottom: 20px;
+}
+
+.proyectos {
+    background-color: #f4da18;
+    border-radius: 10px;
+    margin: 10px auto;
+    max-width: 1100px;
+    padding: 20px;
+    color: #000000;
+}
+
+.proyectos p {
+    color: #000000;
 }
 
 .proyectos img {
     width: 100%;
     max-width: 500px;
     border-radius: 10px;
-    border: 3px solid #ffffff; /* Borde naranja */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border: 3px solid #ffffff;
+    box-shadow: 0 4px 15px rgb(0 0 0 / 0.3);
+    margin-bottom: 20px;
 }
 
-.video-estetico {
-    width: 100%;
-    max-width: 600px;
-    border: 4px solid #ffffff; /* Naranja fuerte */
-    border-radius: 15px;
-    display: block;
-    margin: 30px auto;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-}
-
-
-/* Sección de sobre mi */
-.sobre {
-    background-color: #6758a2; /* Gris medio */
-    padding: 20px;
-    border-radius: 10px;
-    margin: 10px auto;
-    max-width: 1100px;
-}
-
-
-.sobre img {
-    width: 100%;
-    max-width: 500px;
-    border-radius: 10px;
-    border: 3px solid #ffffff; /* Borde naranja */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-}
-
-
-/* Sección de contacto */
 .contacto {
-    background-color: #a7c937; /* Negro grisáceo */
-    padding: 20px;
+    background-color: #a7c937;
     border-radius: 10px;
     margin: 10px auto;
     max-width: 1100px;
+    padding: 20px;
 }
 
 .contacto img {
     width: 100%;
     max-width: 500px;
     border-radius: 10px;
-    border: 3px solid #ffffff; /* Borde naranja */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border: 3px solid #ffffff;
+    box-shadow: 0 4px 15px rgb(0 0 0 / 0.3);
+    margin-bottom: 20px;
 }
 
 .productos {
-    background-color: #b51157; /* Gris medio */
-    padding: 20px;
+    background-color: #b51157;
     border-radius: 10px;
     margin: 10px auto;
     max-width: 1100px;
+    padding: 20px;
 }
 
 .productos img {
     width: 100%;
     max-width: 500px;
     border-radius: 10px;
-    border: 3px solid #ffffff; /* Borde naranja */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border: 3px solid #ffffff;
+    box-shadow: 0 4px 15px rgb(0 0 0 / 0.3);
+    margin-bottom: 20px;
+}
+
+/* Video estético */
+.video-estetico {
+    width: 100%;
+    max-width: 600px;
+    border: 4px solid #ffffff;
+    border-radius: 15px;
+    display: block;
+    margin: 30px auto;
+    box-shadow: 0 4px 15px rgb(0 0 0 / 0.3);
 }
 
 /* Responsive */
@@ -229,12 +195,26 @@ section {
         padding: 10px;
     }
 
-    nav ul {
-        flex-direction: column;
+    header h1 {
+        font-size: 24px;
     }
 
-    .hero {
-        height: 70vh;
+    .boton {
+        font-size: 16px;
+        padding: 10px 20px;
     }
 
+    section {
+        padding: 30px 15px;
+    }
+
+    .inicio img,
+    .sobre img,
+    .proyectos img,
+    .contacto img,
+    .productos img,
+    .video-estetico {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
 }
